@@ -111,7 +111,22 @@ body {
     border-right: 10px solid transparent;
 }
 
-@media screen and (max-width: 380px) {
+@media all and (max-width: 769px) and (max-width: 376px) {
+    .icon img {
+        top: 78%;
+    }
+    .share-box {
+        top: 75%;
+    }
+    .june {
+        bottom: 149px;
+    }
+    .michelle {
+        top: 77%;
+    }
+}
+
+@media all and (max-width: 769px) {
     .card {
         display: flex;
         flex-direction: column;
