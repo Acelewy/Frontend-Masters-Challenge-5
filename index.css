@@ -110,3 +110,49 @@ body {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
 }
+
+@media screen and (max-width: 380px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        max-width: 85%;
+        margin-bottom: 20px;
+    }
+    .first {
+        min-height: 179px;
+    }
+    .second {
+        padding: 20px 24px 1px 24px;
+    }
+    .icon img {
+        top: 84%;
+        right: 15%;
+        z-index: 10;
+    }
+    .michelle {
+        left: 34%;
+        top: 83%;
+    }
+    .june {
+        bottom: 78px;
+    }
+    .share-box {
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 316px;
+        height: 84px;
+        max-width: 100%;
+        min-width: 16%;
+        top: 81%;
+        right: 8%;
+    }
+    .socials {
+        justify-content: flex-start;
+        margin-top: 14px;
+    }
+    a {
+        margin-left: 23px;
+    }
+}
