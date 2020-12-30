@@ -14,12 +14,28 @@ body {
     align-items: center;
     justify-content: center;
     background-color: hsl(210, 46%, 95%);
+    color: hsl(212, 23%, 69%);
 }
 
 .txt1 {
     color: hsl(217, 19%, 35%);
-    font-size: 25px;
+    font-size: 21px;
     font-weight: 700;
+}
+
+.michelle {
+    position: absolute;
+    left: 703px;
+    top: 61%;
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.june {
+    position: absolute;
+    right: 43%;
+    bottom: 221px;
 }
 
 .card {
@@ -38,7 +54,7 @@ body {
 }
 
 .second {
-    padding: 15px;
+    padding: 30px;
     background-color: white;
 }
 
@@ -54,11 +70,43 @@ body {
     height: 100%;
 }
 
+.share-box {
+    display: none;
+    position: absolute;
+    max-width: 49%;
+    min-width: 16%;
+    top: 53%;
+    right: 18%;
+    padding: 11px 20px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+}
+
+.socials {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .icon img {
     position: absolute;
     right: 25%;
-    top: 60%;
+    top: 61%;
     background-color: hsl(210, 46%, 95%);
     padding: 6px;
     border-radius: 50%;
+}
+
+.socials ::after {
+    content: '';
+    border-top: 10px solid hsl(217, 19%, 35%);
+    display: inline-block;
+    height: 0;
+    width: 0;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
 }
