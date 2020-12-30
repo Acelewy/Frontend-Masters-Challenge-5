@@ -111,21 +111,6 @@ body {
     border-right: 10px solid transparent;
 }
 
-@media all and (max-width: 769px) and (max-width: 376px) {
-    .icon img {
-        top: 78%;
-    }
-    .share-box {
-        top: 75%;
-    }
-    .june {
-        bottom: 149px;
-    }
-    .michelle {
-        top: 77%;
-    }
-}
-
 @media all and (max-width: 769px) {
     .card {
         display: flex;
@@ -169,5 +154,21 @@ body {
     }
     a {
         margin-left: 23px;
+    }
+}
+
+@media all and (max-width: 769px) and (max-width: 361px) {
+    .icon img {
+        top: 86%;
+    }
+    .share-box {
+        top: 83%;
+        width: 304px;
+    }
+    .june {
+        bottom: 62px;
+    }
+    .michelle {
+        top: 84%;
     }
 }
